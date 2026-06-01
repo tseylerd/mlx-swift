@@ -7,8 +7,8 @@ open class MaterializedModule<LayerType: Module>: Module, @unchecked Sendable {
     let base: LayerType
 
     public init(_ base: consuming LayerType) throws {
-        try base.materialize()
         self.base = base
+        try self.base.materialize()
     }
 
     @available(*, unavailable)
