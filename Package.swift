@@ -202,6 +202,7 @@ let cmlx = Target.target(
         "mlx/mlx/distributed/jaccl/ring.cpp",
         "mlx/mlx/distributed/jaccl/lib/jaccl/ring.cpp",
         "mlx/mlx/distributed/jaccl/utils.cpp",
+        "mlx/mlx/distributed/jaccl/lib/jaccl/rdma.cpp",
         "mlx/mlx/distributed/jaccl/lib/jaccl/tcp.cpp",
         "mlx/mlx/distributed/jaccl/lib/examples/minimal_env.cpp",
         "mlx/mlx/distributed/jaccl/lib/examples/minimal_cfg.cpp",
